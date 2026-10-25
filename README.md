@@ -2,13 +2,13 @@
 
 Красивый живой дашборд прямо в терминале.
 
-![Pulse](https://img.shields.io/badge/python-3.10+-blue) ![rich](https://img.shields.io/badge/UI-rich-purple)
+![Python](https://img.shields.io/badge/python-3.10+-blue) ![rich](https://img.shields.io/badge/UI-rich-purple)
 
 ## Возможности
 
-- 实时 мониторинг CPU, RAM, дисков и сети
+- Мониторинг CPU, RAM, дисков и сети в реальном времени
 - Топ процессов по нагрузке
-- Красивый интерфейс с обновлением в реальном времени
+- Красивый интерфейс с автообновлением
 - Минимальные зависимости
 - Работает везде, где есть Python
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python pulse.py
 ```
 
-Или сделай исполняемым:
+Или:
 
 ```bash
 chmod +x pulse.py
@@ -35,7 +35,7 @@ chmod +x pulse.py
 
 ## Управление
 
-- `q` или `Ctrl+C` — выход
+- `Ctrl+C` — выход
 - Обновление происходит автоматически каждые 1.5 секунды
 
 ---
